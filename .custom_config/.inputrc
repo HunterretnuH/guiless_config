@@ -22,8 +22,8 @@ set show-mode-in-prompt
 #     6: steady bar (xterm)
 #     I.e. set vi-ins-mode-string (ins) \1\e[5 q\2
 
-set vi-ins-mode-string \x1b[30m\x1b[46m $ \e[49m\x1b[36m 
-set vi-cmd-mode-string \x1b[30m\x1b[42m $ \e[49m\x1b[32m 
+set vi-ins-mode-string \x1b[30m\x1b[46m $ \e[49m\x1b[36m\x1b[30m 
+set vi-cmd-mode-string \x1b[30m\x1b[42m $ \e[49m\x1b[32m\x1b[30m 
 
 
 $if mode=vi
