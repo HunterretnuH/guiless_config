@@ -14,6 +14,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'roxma/vim-tmux-clipboard'
 Plug 'sunaku/tmux-navigate'
 Plug 'chrisbra/Recover.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 "}}}
