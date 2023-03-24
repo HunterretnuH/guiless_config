@@ -17,7 +17,7 @@ alias e='exit'
 alias r='. ranger'
 alias copy='tmux loadb -'
 alias paste='tmux saveb -'
-
+alias tmux='TERM=xterm-256color tmux'
 
 
 ## Git
