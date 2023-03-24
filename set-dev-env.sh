@@ -41,6 +41,7 @@ if ! grep -q "SOURCE CUSTOM CONFIG " /home/$USER/.tmux.conf; then
 fi
 cp -fr .tmux /home/$USER/
 git clone https://github.com/sunaku/tmux-navigate /home/$USER/.tmux/plugins/tmux-navigate
+git clone https://github.com/sainnhe/tmux-fzf /home/$USER/.tmux/plugins/tmux-fzf
 #}}}
 #{{{ File manager: RANGER - ranger.conf
     git clone https://github.com/ranger/ranger /home/$USER/MyPrograms/ranger
